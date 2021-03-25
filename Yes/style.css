@@ -6,12 +6,14 @@ body {
 }
 a.link  {
     color: white;
-6
+    text-decoration: none;
+
 }
 h1  {
-    letter-spacing: 7px;
+    letter-spacing: 3px;
     color: white;
-    text-indent: 50px;
+    text-indent: 10px;
+    
     
 }
 
@@ -43,13 +45,25 @@ h2  {
 }
 
 .Home   {
+    margin: 10px;
     display: flex;
     text-align: center;
-    margin-left : 100vh;
+    margin-left : 120vh;
 
 
 }
 
-a.hover {
-    
+.About  {
+    margin: 10px;
 }
+
+.Contacts   {
+    margin: 10px;
+}
+
+
+
+
+a:hover {
+    text-decoration: underline;
+   }

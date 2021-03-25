@@ -1,32 +1,32 @@
 body {
     font-family: sans-serif;
-    display: flex;
+    display: grid
     margin: 0%;
     background-image: url(background.jpg);
 }
+
 a.link  {
     color: white;
     text-decoration: none;
-
+    text-indent: 10px;
 }
-h1  {
+
+h1  { font-family: serif;
     letter-spacing: 3px;
     color: white;
-    text-indent: 10px;
-    
-    
+    text-indent: 5px;
 }
 
 h2  {
-    letter-spacing: 7px;
+    letter-spacing: 3px;
     color: white;
     text-indent: 30px;
-
 }
 
 .Topbar   {
+    margin: 10px;
     display: grid;
-    width: 100% ;
+    width: 208vh ;
     height: 11vh;
     background-color: rgb(61, 14, 61);
     box-shadow: 0px 0px 100px 50px rgba(51, 8, 51, 0.849);
@@ -39,31 +39,48 @@ h2  {
 }
 
 .Name   {
-    border-radius: 10vh;
+    border-radius: 20vh;
     color: rgb(255, 255, 255);
     background-color: rgb(61, 14, 63);
 }
 
+.Yes{
+    margin-left: 85vh;
+}
+
 .Home   {
-    margin: 10px;
-    display: flex;
     text-align: center;
-    margin-left : 120vh;
-
-
+    
 }
 
 .About  {
-    margin: 10px;
+
+    text-align: center;
+
 }
 
 .Contacts   {
-    margin: 10px;
+    text-align: center;
+
 }
-
-
-
 
 a:hover {
     text-decoration: underline;
-   }
+}
+
+.Parent {
+    display: flex;
+    margin: 10px;
+    width: 208vh;
+    height: 84.5vh;
+    box-shadow: 0px 0px 100px 50px rgba(51, 8, 51, 0.849);
+    background-color: rgba(61, 14, 61, 0.692);
+}
+
+.Main   {
+    margin: 20px;
+    width: 50vh;
+    height: 70;
+    background-color: rgba(128, 29, 128, 0.377);
+}
+

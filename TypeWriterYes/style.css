@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("Cheems Yehaw.jpg");
+}
+
+.Yeehaw{
+    display: flex;
+    color: black;
+    height: 100vh;
+}
+
+.typing{
+    position: relative;
+    margin-left: 10px;
+}
+
+.typing::after{
+    content: "";
+    position: absolute;
+    right: -5px;
+    width: 1px;
+    height: 7%;
+    border-right: 3px solid Black;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    {
+        opacity: 1;
+    }
+}

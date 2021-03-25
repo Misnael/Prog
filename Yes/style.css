@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    margin: 0%;
+    background-image: url(background.jpg);
+}
+a.link  {
+    color: white;
+}
+h1  {
+    letter-spacing: 7px;
+    color: white;
+    text-indent: 50px;
+    text-decoration: underline;
+}
+
+h2  {
+    letter-spacing: 7px;
+    color: white;
+    text-indent: 30px;
+
+}
+
+.Topbar   {
+    display: grid;
+    width: 100% ;
+    height: 11vh;
+    background-color: rgb(61, 14, 61);
+    box-shadow: 0px 0px 100px 50px rgba(51, 8, 51, 0.849);
+}
+
+.Menu   { 
+    display: flex;
+    width: 99%;
+    height: 0vh;
+}
+
+.Name   {
+    border-radius: 10vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 14, 63);
+}
+
+.Home   {
+    display: flex;
+    text-align: center;
+    margin-left : 100vh;
+
+
+}
+
+a.hover {
+    
+}

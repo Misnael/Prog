@@ -1,0 +1,18 @@
+body {
+    margin:0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(BackgroundNya.jpg);
+}
+
+.Nya    {
+    font-size: 200%;
+    font-family: cursive;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-decoration-line: underline;
+}

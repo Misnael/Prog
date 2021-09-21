@@ -30,4 +30,4 @@ window.addEventListener('keydown', e => {
 export function getInputDirection(){
     lastInputDirection = inputDirection
     return inputDirection
-}
+} 
